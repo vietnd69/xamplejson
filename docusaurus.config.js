@@ -45,7 +45,6 @@ const config = {
           editUrl:
             'https://github.com/vietnd69/xamplejson/tree/main/ia-docs/',
         },
-        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
