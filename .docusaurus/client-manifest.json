@@ -1,0 +1,151 @@
+{
+  "entrypoints": [
+    "main"
+  ],
+  "origins": {
+    "42": [
+      42
+    ],
+    "17896441": [
+      869,
+      401
+    ],
+    "main": [
+      354,
+      869,
+      792
+    ],
+    "runtime~main": [
+      792,
+      869,
+      354
+    ],
+    "03b7f8ab": [
+      106
+    ],
+    "0e384e19": [
+      976
+    ],
+    "5e95c892": [
+      647
+    ],
+    "a7bd4aaa": [
+      98
+    ],
+    "a94703ab": [
+      869,
+      48
+    ],
+    "aba21aa0": [
+      742
+    ],
+    "styles": [
+      48,
+      354,
+      401,
+      792,
+      869
+    ]
+  },
+  "assets": {
+    "42": {
+      "js": [
+        {
+          "file": "assets/js/42.dd3bae0a.js",
+          "hash": "4be281ffe44124bd",
+          "publicPath": "/xamplejson/assets/js/42.dd3bae0a.js"
+        }
+      ]
+    },
+    "48": {
+      "js": [
+        {
+          "file": "assets/js/a94703ab.aa290517.js",
+          "hash": "38a2ab1766b44567",
+          "publicPath": "/xamplejson/assets/js/a94703ab.aa290517.js"
+        }
+      ]
+    },
+    "98": {
+      "js": [
+        {
+          "file": "assets/js/a7bd4aaa.6936f69a.js",
+          "hash": "99eb5e8bb3325597",
+          "publicPath": "/xamplejson/assets/js/a7bd4aaa.6936f69a.js"
+        }
+      ]
+    },
+    "106": {
+      "js": [
+        {
+          "file": "assets/js/03b7f8ab.6b2f52de.js",
+          "hash": "aba3b7d61fe1d35d",
+          "publicPath": "/xamplejson/assets/js/03b7f8ab.6b2f52de.js"
+        }
+      ]
+    },
+    "354": {
+      "js": [
+        {
+          "file": "assets/js/runtime~main.04e0a521.js",
+          "hash": "e4d0efb85b5cc94e",
+          "publicPath": "/xamplejson/assets/js/runtime~main.04e0a521.js"
+        }
+      ]
+    },
+    "401": {
+      "js": [
+        {
+          "file": "assets/js/17896441.ee035e2c.js",
+          "hash": "9eb5cb783fbb9f0f",
+          "publicPath": "/xamplejson/assets/js/17896441.ee035e2c.js"
+        }
+      ]
+    },
+    "647": {
+      "js": [
+        {
+          "file": "assets/js/5e95c892.2a82f033.js",
+          "hash": "906e9840f5919f6e",
+          "publicPath": "/xamplejson/assets/js/5e95c892.2a82f033.js"
+        }
+      ]
+    },
+    "742": {
+      "js": [
+        {
+          "file": "assets/js/aba21aa0.21d854b9.js",
+          "hash": "7b4adcdd3920f064",
+          "publicPath": "/xamplejson/assets/js/aba21aa0.21d854b9.js"
+        }
+      ]
+    },
+    "792": {
+      "js": [
+        {
+          "file": "assets/js/main.88636c60.js",
+          "hash": "3feec6e3895725bf",
+          "publicPath": "/xamplejson/assets/js/main.88636c60.js"
+        }
+      ]
+    },
+    "869": {
+      "css": [
+        {
+          "file": "assets/css/styles.17275f4c.css",
+          "hash": "eb3194ba6623f5e2",
+          "publicPath": "/xamplejson/assets/css/styles.17275f4c.css"
+        }
+      ]
+    },
+    "976": {
+      "js": [
+        {
+          "file": "assets/js/0e384e19.6a397bcb.js",
+          "hash": "3c28b020b231cb73",
+          "publicPath": "/xamplejson/assets/js/0e384e19.6a397bcb.js"
+        }
+      ]
+    }
+  }
+}
