@@ -21,7 +21,7 @@ const config = {
   projectName: 'xamplejson', // Usually your repo name.
 
   onBrokenLinks: 'ignore',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenMarkdownLinks: 'ignore',
   trailingSlash: false,
   noIndex: true,
 
@@ -39,11 +39,9 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/vietnd69/xamplejson/tree/main/ia-docs/',
+          editUrl: 'https://github.com/vietnd69/xamplejson/tree/main/ia-docs/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -65,18 +63,8 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'docs',
-            position: 'left',
-            label: 'Documentation',
-          },
-          {
             href: 'https://github.com/vietnd69/xamplejson',
             label: 'GitHub',
-            position: 'right',
-          },
-          {
-            type: 'search',
             position: 'right',
           },
         ],
@@ -85,33 +73,8 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Getting Started',
-                to: '/docs/getting-started/installation',
-              },
-              {
-                label: 'IA Core',
-                to: '/docs/ia-core/api/core-functions',
-              },
-              {
-                label: 'Island Adventures',
-                to: '/docs/island-adventures/guides/island-types',
-              },
-            ],
-          },
-          {
             title: 'Community',
             items: [
-              {
-                label: 'Discord',
-                href: '#',
-              },
-              {
-                label: 'Twitter',
-                href: '#',
-              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/vietnd69/xamplejson',
