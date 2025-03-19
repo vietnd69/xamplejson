@@ -22,6 +22,7 @@ const config = {
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+  trailingSlash: false,
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -42,6 +43,16 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/vietnd69/xamplejson/tree/main/ia-docs/',
+        },
+        blog: {
+          showReadingTime: false,
+          feedOptions: {
+            type: 'rss',
+            title: 'IA Core Documentation',
+            description: 'Documentation for IA Core and Island Adventures',
+            copyright: `Copyright © ${new Date().getFullYear()} IA Core`,
+            language: 'en',
+          },
         },
         theme: {
           customCss: './src/css/custom.css',
