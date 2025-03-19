@@ -44,16 +44,7 @@ const config = {
           editUrl:
             'https://github.com/vietnd69/xamplejson/tree/main/ia-docs/',
         },
-        blog: {
-          showReadingTime: false,
-          feedOptions: {
-            type: 'rss',
-            title: 'IA Core Documentation',
-            description: 'Documentation for IA Core and Island Adventures',
-            copyright: `Copyright © ${new Date().getFullYear()} IA Core`,
-            language: 'en',
-          },
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
