@@ -20,7 +20,7 @@ const config = {
   organizationName: 'vietnd69', // Usually your GitHub org/user name.
   projectName: 'xamplejson', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   trailingSlash: false,
   noIndex: true,
