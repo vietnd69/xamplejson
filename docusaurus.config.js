@@ -46,6 +46,23 @@ const config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+        blog: {
+          showReadingTime: true,
+          feedOptions: {
+            type: 'rss',
+            title: 'IA Core Documentation',
+            description: 'Documentation for IA Core and Island Adventures',
+            copyright: `Copyright © ${new Date().getFullYear()} IA Core`,
+            language: 'en',
+            createFeedItems: async (params) => {
+              const { blogPosts, defaultCreateFeedItems, ...rest } = params;
+              return defaultCreateFeedItems({
+                blogPosts: blogPosts.filter((item) => !item.metadata.frontMatter.draft),
+                ...rest,
+              });
+            },
+          },
+        },
       }),
     ],
   ],
